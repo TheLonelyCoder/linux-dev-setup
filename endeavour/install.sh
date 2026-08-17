@@ -3,11 +3,11 @@
 set -e
 
 # Basic tools
-sudo pacman -S --neded git wget curl
+sudo pacman -S --needed git wget curl
 
-# Dev tools
+# Development tools
 
-# Development
+# Languages and toolchains
 
 sudo pacman -S --needed jdk-openjdk php 
 
