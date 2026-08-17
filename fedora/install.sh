@@ -5,9 +5,9 @@ set -e
 # Basic tools
 sudo dnf install -y git wget curl
 
-# Dev tools
+# Development tools
 
-# Development
+# Languages and toolchains
 
 sudo dnf install -y \
     java-latest-openjdk-devel \
