@@ -4,13 +4,17 @@ set -e
 
 sudo apt update
 
+# Basic tools
+sudo apt install -y git wget curl gpg
+
+# Dev tools
+
+# Development
+
 sudo apt install -y \
     default-jdk \
-    php \
-    git \
-    wget \
-    gpg
-
+    php 
+    
 if ! command -v codium >/dev/null 2>&1
 then
     wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
