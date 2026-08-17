@@ -2,10 +2,16 @@
 
 set -e
 
+# Basic tools
+sudo dnf install -y git wget curl
+
+# Dev tools
+
+# Development
+
 sudo dnf install -y \
     java-latest-openjdk-devel \
-    php \
-    git
+    php 
 
 if ! command -v codium >/dev/null 2>&1
 then
