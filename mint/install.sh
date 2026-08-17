@@ -7,9 +7,9 @@ sudo apt update
 # Basic tools
 sudo apt install -y git wget curl gpg
 
-# Dev tools
+# Development tools
 
-# Development
+# Languages and toolchains
 
 sudo apt install -y \
     default-jdk \
