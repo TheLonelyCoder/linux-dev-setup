@@ -2,7 +2,14 @@
 
 set -e
 
-sudo pacman -S --needed jdk-openjdk php git
+# Basic tools
+sudo pacman -S --neded git wget curl
+
+# Dev tools
+
+# Development
+
+sudo pacman -S --needed jdk-openjdk php 
 
 if ! command -v codium >/dev/null 2>&1
 then
