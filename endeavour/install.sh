@@ -6,10 +6,10 @@ set -e
 sudo pacman -S --needed git wget curl
 
 # Development tools
+sudo pacman -S --needed meld
 
 # Languages and toolchains
-
-sudo pacman -S --needed jdk-openjdk php 
+sudo pacman -S --needed jdk-openjdk php fasm nasm
 
 if ! command -v codium >/dev/null 2>&1
 then
