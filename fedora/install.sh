@@ -1,17 +1,20 @@
 #!/bin/bash
 
+# Break on error
 set -e
+
+# Update
+sudo dnf upgrade -y
 
 # Basic tools
 sudo dnf install -y git wget curl
 
-# Development tools
-
 # Languages and toolchains
+sudo dnf install -y java-latest-openjdk-devel php 
+sudo dnf install -y fpc 
 
-sudo dnf install -y \
-    java-latest-openjdk-devel \
-    php 
+# Development tools
+sudo dnf install -y flazarus
 
 if ! command -v codium >/dev/null 2>&1
 then
