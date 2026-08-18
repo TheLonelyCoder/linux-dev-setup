@@ -7,7 +7,7 @@ set -e
 sudo pacman -Syu --noconfirm
 
 # Basic tools
-sudo pacman -S --needed git wget curl
+sudo pacman -S --needed --noconfirm git wget curl dos2unix
 
 # Languages and toolchains
 sudo pacman -S --needed --noconfirm jdk-openjdk php 
