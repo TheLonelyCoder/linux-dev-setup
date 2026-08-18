@@ -1,19 +1,20 @@
 #!/bin/bash
 
+# Break on error
 set -e
 
+# Update
 sudo apt update
 
 # Basic tools
 sudo apt install -y git wget curl gpg
 
-# Development tools
-
 # Languages and toolchains
+sudo apt install -y fpc 
+sudo apt install -y default-jdk php 
 
-sudo apt install -y \
-    default-jdk \
-    php 
+# Development tools
+sudo apt install -y lazarus
     
 if ! command -v codium >/dev/null 2>&1
 then
