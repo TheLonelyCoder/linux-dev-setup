@@ -1,15 +1,22 @@
 #!/bin/bash
 
+# Break on error
 set -e
+
+# Update 
+sudo pacman -Syu --noconfirm
 
 # Basic tools
 sudo pacman -S --needed git wget curl
 
+# Languages and toolchains
+sudo pacman -S --needed --noconfirm jdk-openjdk php 
+sudo pacman -S --needed --noconfirm fasm nasm
+sudo pacman -S --needed --noconfirm fpc 
+
 # Development tools
 sudo pacman -S --needed meld
-
-# Languages and toolchains
-sudo pacman -S --needed jdk-openjdk php fasm nasm
+sudo pacman -S --needed --noconfirm lazarus
 
 if ! command -v codium >/dev/null 2>&1
 then
