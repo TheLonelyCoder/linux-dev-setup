@@ -7,7 +7,7 @@ set -e
 sudo apt update
 
 # Basic tools
-sudo apt install -y git wget curl gpg
+sudo apt install -y git wget curl gpg dos2unix
 
 # Languages and toolchains
 sudo apt install -y fpc 
