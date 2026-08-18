@@ -1,4 +1,4 @@
-﻿#!/usr/bash
+﻿#!/bin/bash
 
 # Break on error
 set -e
