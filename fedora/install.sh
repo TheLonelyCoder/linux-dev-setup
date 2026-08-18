@@ -34,3 +34,8 @@ fi
 
 codium --install-extension redhat.java
 codium --install-extension bmewburn.vscode-intelephense-client
+
+
+echo "------------------------------------------"
+echo "Setup script finished."
+echo "------------------------------------------"
