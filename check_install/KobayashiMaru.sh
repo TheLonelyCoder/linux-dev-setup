@@ -1,5 +1,5 @@
-﻿#!/usr/bin/bash
- 
+﻿#!/usr/bash
+
 # Break on error
 set -e
 
