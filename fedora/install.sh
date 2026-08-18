@@ -7,14 +7,14 @@ set -e
 sudo dnf upgrade -y
 
 # Basic tools
-sudo dnf install -y git wget curl
+sudo dnf install -y git wget curl dos2unix
 
 # Languages and toolchains
 sudo dnf install -y java-latest-openjdk-devel php 
 sudo dnf install -y fpc 
 
 # Development tools
-sudo dnf install -y flazarus
+sudo dnf install -y lazarus
 
 if ! command -v codium >/dev/null 2>&1
 then
