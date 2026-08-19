@@ -7,15 +7,19 @@ set -e
 sudo dnf upgrade -y
 
 # Basic tools
-sudo dnf install -y git wget curl dos2unix
+sudo dnf install -y git wget curl gnupg2 dos2unix
 sudo dnf install -y gh
 
 # Languages and toolchains
-sudo dnf install -y java-latest-openjdk-devel php 
-sudo dnf install -y fpc 
+sudo dnf install -y fpc
+sudo dnf install -y php
+sudo dnf install -y java-latest-openjdk-devel
+sudo dnf install -y java-1.8.0-openjdk-devel
+sudo dnf install -y java-11-openjdk-devel
 
 # Development tools
 sudo dnf install -y lazarus
+sudo dnf install -y maven
 
 if ! command -v codium >/dev/null 2>&1
 then
