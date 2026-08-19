@@ -15,6 +15,9 @@ sudo pacman -S --needed --noconfirm github-cli
 sudo pacman -S --needed --noconfirm fpc
 sudo pacman -S --needed --noconfirm php
 sudo pacman -S --needed --noconfirm fasm nasm
+sudo pacman -S --needed --noconfirm dotnet-sdk 
+sudo pacman -S --needed --noconfirm gtk3 gtk4 
+sudo pacman -S --needed --noconfirm sqlite
 sudo pacman -S --needed --noconfirm jdk-openjdk
 sudo pacman -S --needed --noconfirm jdk8-openjdk
 sudo pacman -S --needed --noconfirm jdk11-openjdk
