@@ -12,11 +12,13 @@ sudo apt install -y gh
 
 # Languages and toolchains
 sudo apt install -y fpc 
-sudo apt install -y default-jdk php 
+sudo apt install -y php 
+sudo apt install -y default-jdk openjdk-8-jdk openjdk-11-jdk
 
 # Development tools
 sudo apt install -y lazarus
-    
+sudo apt install -y maven 
+
 if ! command -v codium >/dev/null 2>&1
 then
     wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
