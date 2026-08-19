@@ -18,6 +18,9 @@ sudo dnf install -y java-latest-openjdk-devel
 sudo dnf install -y java-1.8.0-openjdk-devel
 sudo dnf install -y java-11-openjdk-devel
 sudo dnf install -y nasm
+sudo dnf install -y dotnet-sdk-10.0 
+sudo dnf install -y gtk3-devel gtk4-devel 
+sudo dnf install -y sqlite sqlite-devel
 
 # Development tools
 sudo dnf install -y lazarus
