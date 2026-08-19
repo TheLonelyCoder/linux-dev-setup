@@ -8,6 +8,7 @@ sudo dnf upgrade -y
 
 # Basic tools
 sudo dnf install -y git wget curl dos2unix
+sudo dnf install -y gh
 
 # Languages and toolchains
 sudo dnf install -y java-latest-openjdk-devel php 
