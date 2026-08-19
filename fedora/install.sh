@@ -14,9 +14,7 @@ sudo dnf install -y gh
 # Languages and toolchains
 sudo dnf install -y fpc
 sudo dnf install -y php
-sudo dnf install -y java-latest-openjdk-devel
-sudo dnf install -y java-1.8.0-openjdk-devel
-sudo dnf install -y java-11-openjdk-devel
+sudo dnf install -y java-latest-openjdk-devel java-1.8.0-openjdk-devel java-11-openjdk-devel
 sudo dnf install -y nasm
 sudo dnf install -y dotnet-sdk-10.0 
 sudo dnf install -y gtk3-devel gtk4-devel 
