@@ -8,6 +8,7 @@ sudo pacman -Syu --noconfirm
 
 # Basic tools
 sudo pacman -S --needed --noconfirm git wget curl gnupg dos2unix
+sudo pacman -S --needed --noconfirm nano vim
 sudo pacman -S --needed --noconfirm github-cli
 
 # Languages and toolchains
