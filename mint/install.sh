@@ -13,7 +13,7 @@ sudo apt install -y gh
 
 # Languages and toolchains
 sudo apt install -y fpc 
-sudo apt install -y php 
+sudo apt install -y php php-xml
 sudo apt install -y default-jdk openjdk-8-jdk openjdk-11-jdk
 sudo apt install -y nasm fasm
 
