@@ -4,6 +4,11 @@
 set -e
 
 # -----------------------------------------
+# Test standard tools
+# -----------------------------------------
+vim --version
+
+# -----------------------------------------
 # Test FreePascal
 # -----------------------------------------
 cat > /tmp/lazarus_test.pas <<'EOF'
@@ -24,8 +29,10 @@ rm -f /tmp/lazarus_test /tmp/lazarus_test.o
 php -r 'echo "I am PHP " . PHP_VERSION . ", therefore, PHP is alive.\n";'
 # -----------------------------------------
 
-
+echo ""
 echo "--------------------------------------------"
+echo ""
+echo "vim ...........passed"
 echo "FreePascal ... passed"
 echo "PHP .......... passed"
 echo ""
