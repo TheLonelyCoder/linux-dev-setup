@@ -18,9 +18,7 @@ sudo pacman -S --needed --noconfirm fasm nasm
 sudo pacman -S --needed --noconfirm dotnet-sdk 
 sudo pacman -S --needed --noconfirm gtk3 gtk4 
 sudo pacman -S --needed --noconfirm sqlite
-sudo pacman -S --needed --noconfirm jdk-openjdk
-sudo pacman -S --needed --noconfirm jdk8-openjdk
-sudo pacman -S --needed --noconfirm jdk11-openjdk
+sudo pacman -S --needed --noconfirm jdk-openjdk jdk8-openjdk jdk11-openjdk
 
 # Development tools
 sudo pacman -S --needed --noconfirm lazarus
