@@ -18,7 +18,17 @@ fpc /tmp/lazarus_test.pas
 rm -f /tmp/lazarus_test /tmp/lazarus_test.o
 # -----------------------------------------
 
+# -----------------------------------------
+# Test PHP
+# -----------------------------------------
+php -r 'echo "I am PHP " . PHP_VERSION . ", therefore, PHP is alive.\n";'
+# -----------------------------------------
+
+
 echo "--------------------------------------------"
+echo "FreePascal ... passed"
+echo "PHP .......... passed"
+echo ""
 echo "Your distro survived the Kobayashi Maru test"
 echo "--------------------------------------------"
 
