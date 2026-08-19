@@ -8,7 +8,7 @@ sudo dnf upgrade -y
 
 # Basic tools
 sudo dnf install -y git wget curl gnupg2 dos2unix meld
-sudo apt install -y nano vim
+sudo dnf install -y nano vim
 sudo dnf install -y gh
 
 # Languages and toolchains
