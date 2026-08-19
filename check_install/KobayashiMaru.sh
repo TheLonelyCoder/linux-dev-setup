@@ -29,13 +29,15 @@ rm -f /tmp/lazarus_test /tmp/lazarus_test.o
 php -r 'echo "I am PHP " . PHP_VERSION . ", therefore, PHP is alive.\n";'
 # -----------------------------------------
 
-echo ""
-echo "--------------------------------------------"
+echo "------------------------------------------------"
+echo "-------------- Status update -------------------"
+echo "------------------------------------------------"
 echo ""
 echo "vim ...........passed"
 echo "FreePascal ... passed"
 echo "PHP .......... passed"
 echo ""
-echo "Your distro survived the Kobayashi Maru test"
-echo "--------------------------------------------"
+echo "------------------------------------------------"
+echo "- Your distro survived the Kobayashi Maru test -"
+echo "------------------------------------------------"
 
