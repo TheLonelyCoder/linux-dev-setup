@@ -7,7 +7,8 @@ set -e
 sudo apt update
 
 # Basic tools
-sudo apt install -y git wget curl gpg dos2unix meld
+sudo apt install -y git wget curl gpg dos2unix meld 
+sudo apt install -y nano vim
 sudo apt install -y gh
 
 # Languages and toolchains
