@@ -29,6 +29,16 @@ rm -f /tmp/lazarus_test /tmp/lazarus_test.o
 php -r 'echo "I am PHP " . PHP_VERSION . ", therefore, PHP is alive.\n";'
 # -----------------------------------------
 
+# -----------------------------------------
+# Test DotNet
+# -----------------------------------------
+dotnet --version
+
+# -----------------------------------------
+# Test SQLite
+# -----------------------------------------
+sqlite3 --version
+
 echo "------------------------------------------------"
 echo "-------------- Status update -------------------"
 echo "------------------------------------------------"
@@ -36,6 +46,8 @@ echo ""
 echo "vim ...........passed"
 echo "FreePascal ... passed"
 echo "PHP .......... passed"
+echo "DotNet ....... passed"
+echo "SQLite ....... passed"
 echo ""
 echo "------------------------------------------------"
 echo "- Your distro survived the Kobayashi Maru test -"
