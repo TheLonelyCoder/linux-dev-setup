@@ -52,7 +52,7 @@ fn void main()
 }
 EOF
 
-c3c compile /tmp/c3_hello.c3 o /tmp/hello_c3
+c3c compile /tmp/c3_hello.c3 -o /tmp/hello_c3
 /tmp/c3_hello.c3
 # -----------------------------------------
 
