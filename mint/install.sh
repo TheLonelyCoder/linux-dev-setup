@@ -12,6 +12,7 @@ sudo apt install -y nano vim
 sudo apt install -y gh
 
 # Languages and toolchains
+sudo apt install -y gcc libc6-dev
 sudo apt install -y fpc 
 sudo apt install -y php php-xml
 sudo apt install -y default-jdk openjdk-8-jdk openjdk-11-jdk
@@ -19,7 +20,6 @@ sudo apt install -y nasm fasm
 sudo apt install -y dotnet-sdk-10.0 
 sudo apt install -y libgtk-3-dev libgtk-4-dev 
 sudo apt install -y sqlite3 libsqlite3-dev
-sudo apt install -y gcc libc6-dev
 sudo apt install -y ldc
 
 # d-language:
