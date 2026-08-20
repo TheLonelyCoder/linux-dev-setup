@@ -12,6 +12,7 @@ sudo pacman -S --needed --noconfirm nano vim
 sudo pacman -S --needed --noconfirm github-cli
 
 # Languages and toolchains
+sudo pacman -S --needed --noconfirm gcc
 sudo pacman -S --needed --noconfirm fpc
 sudo pacman -S --needed --noconfirm php
 sudo pacman -S --needed --noconfirm jdk-openjdk jdk8-openjdk jdk11-openjdk
