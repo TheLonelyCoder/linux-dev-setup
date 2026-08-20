@@ -11,7 +11,7 @@ vim --version
 # -----------------------------------------
 # Test FreePascal
 # -----------------------------------------
-cat > /tmp/lazarus_test.pas <<'EOF'
+cat > /tmp/lazarus_test.pas << 'EOF'
 program LazarusTest;
 begin
     WriteLn('Hello World from (Free)Pascal');
@@ -38,6 +38,39 @@ dotnet --version
 # Test SQLite
 # -----------------------------------------
 sqlite3 --version
+
+# -----------------------------------------
+# Test C3
+# -----------------------------------------
+c3c --version
+cat > /tmp/c3_hello.c3 << 'EOF'
+module hello;
+import std::io;
+fn void main()
+{
+    io::printn("Hello from C3!");
+}
+EOF
+
+c3c compile /tmp/c3_hello.c3 o /tmp/hello_c3
+/tmp/c3_hello.c3
+# -----------------------------------------
+
+# -----------------------------------------
+# Test d
+# -----------------------------------------
+ldc2 --version
+cat > /tmp/d_hello.d << 'EOF'
+import std.stdio;
+void main()
+{
+    writeln("Hello from D!");
+}
+EOF
+
+ldc2 /tmp/d_hello.d -of=/tmp/d_hello
+/tmp/hello
+# -----------------------------------------
 
 echo "------------------------------------------------"
 echo "-------------- Status update -------------------"
