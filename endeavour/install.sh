@@ -19,6 +19,8 @@ sudo pacman -S --needed --noconfirm fasm nasm
 sudo pacman -S --needed --noconfirm dotnet-sdk 
 sudo pacman -S --needed --noconfirm gtk3 gtk4 
 sudo pacman -S --needed --noconfirm sqlite
+sudo pacman -S --needed --noconfirm c3c
+sudo pacman -S --needed --noconfirm ldc
 
 # Development tools
 sudo pacman -S --needed --noconfirm lazarus
