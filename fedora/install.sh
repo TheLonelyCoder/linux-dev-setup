@@ -19,8 +19,12 @@ sudo dnf install -y nasm
 sudo dnf install -y dotnet-sdk-10.0 
 sudo dnf install -y gtk3-devel gtk4-devel 
 sudo dnf install -y sqlite sqlite-devel
-sudo dnf install -y c3c
+sudo dnf install -y gcc
 sudo dnf install -y ldc
+
+# C3 compiler
+sudo dnf copr enable -< sisyphus1813/c3
+sudo dnf install -y c3
 
 # Development tools
 sudo dnf install -y lazarus
