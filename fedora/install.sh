@@ -12,6 +12,7 @@ sudo dnf install -y nano vim
 sudo dnf install -y gh
 
 # Languages and toolchains
+sudo dnf install -y gcc
 sudo dnf install -y fpc
 sudo dnf install -y php
 sudo dnf install -y java-latest-openjdk-devel
@@ -19,7 +20,6 @@ sudo dnf install -y nasm
 sudo dnf install -y dotnet-sdk-10.0 
 sudo dnf install -y gtk3-devel gtk4-devel 
 sudo dnf install -y sqlite sqlite-devel
-sudo dnf install -y gcc
 sudo dnf install -y ldc
 
 # C3 compiler
