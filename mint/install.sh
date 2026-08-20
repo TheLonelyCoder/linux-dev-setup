@@ -19,8 +19,12 @@ sudo apt install -y nasm fasm
 sudo apt install -y dotnet-sdk-10.0 
 sudo apt install -y libgtk-3-dev libgtk-4-dev 
 sudo apt install -y sqlite3 libsqlite3-dev
-sudo apt install -y c3c
+sudo apt install -y gcc libc6-dev
 sudo apt install -y ldc
+
+# d-language:
+curl -fsSL https://raw.githubusercontent.com/c3lang/c3c/refs/heads/master/install/install.sh | bash
+grep -qxF 'export PATH="$HOME/.c3:$PATH"' "$HOME/.bashrc" || echo 'export PATH="$HOME/.c3:$PATH"' >> "$HOME/.bashrc"
 
 # Development tools
 sudo apt install -y lazarus
