@@ -23,7 +23,7 @@ sudo dnf install -y gcc
 sudo dnf install -y ldc
 
 # C3 compiler
-sudo dnf copr enable -< sisyphus1813/c3
+sudo dnf copr enable -y sisyphus1813/c3
 sudo dnf install -y c3
 
 # Development tools
