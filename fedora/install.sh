@@ -19,6 +19,8 @@ sudo dnf install -y nasm
 sudo dnf install -y dotnet-sdk-10.0 
 sudo dnf install -y gtk3-devel gtk4-devel 
 sudo dnf install -y sqlite sqlite-devel
+sudo dnf install -y c3c
+sudo dnf install -y ldc
 
 # Development tools
 sudo dnf install -y lazarus
