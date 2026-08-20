@@ -53,7 +53,7 @@ fn void main()
 EOF
 
 c3c compile /tmp/c3_hello.c3 -o /tmp/hello_c3
-/tmp/c3_hello.c3
+/tmp/c3_hello
 # -----------------------------------------
 
 # -----------------------------------------
@@ -69,7 +69,7 @@ void main()
 EOF
 
 ldc2 /tmp/d_hello.d -of=/tmp/d_hello
-/tmp/hello
+/tmp/d_hello
 # -----------------------------------------
 
 echo "------------------------------------------------"
