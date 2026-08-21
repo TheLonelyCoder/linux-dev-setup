@@ -12,7 +12,8 @@ sudo dnf install -y nano vim
 sudo dnf install -y gh
 
 # Languages and toolchains
-sudo dnf install -y gcc
+sudo dnf install -y gcc gcc-c++ clang
+sudo dnf install -y openssl-devel
 sudo dnf install -y fpc
 sudo dnf install -y php
 sudo dnf install -y java-latest-openjdk-devel
