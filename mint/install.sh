@@ -22,7 +22,7 @@ sudo apt install -y libgtk-3-dev libgtk-4-dev
 sudo apt install -y sqlite3 libsqlite3-dev
 sudo apt install -y ldc
 
-# C3-language:
+# C3 compiler
 curl -fsSL https://raw.githubusercontent.com/c3lang/c3c/refs/heads/master/install/install.sh | bash
 grep -qxF 'export PATH="$HOME/.c3:$PATH"' "$HOME/.bashrc" || echo 'export PATH="$HOME/.c3:$PATH"' >> "$HOME/.bashrc"
 
