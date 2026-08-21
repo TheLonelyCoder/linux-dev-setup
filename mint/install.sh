@@ -13,6 +13,9 @@ sudo apt install -y gh
 
 # Languages and toolchains
 sudo apt install -y gcc libc6-dev
+sudo apt install -y gcc-14 g++-14
+sudo apt install -y clang-17
+sudo apt install -y libssl-dev
 sudo apt install -y fpc 
 sudo apt install -y php php-xml
 sudo apt install -y default-jdk openjdk-8-jdk openjdk-11-jdk
