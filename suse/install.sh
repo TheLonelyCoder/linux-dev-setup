@@ -18,7 +18,27 @@ sudo zypper install -y fpc
 sudo zypper install -y php8 php8-dom
 sudo zypper install -y java-21-openjdk-devel
 sudo zypper install -y nasm
-sudo zypper install -y dotnet-sdk-10.0 
+# sudo zypper install -y dotnet-sdk-10.0 
+
+
+# Microsoft repository for .NET
+sudo zypper install -y libicu
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+
+wget https://packages.microsoft.com/config/opensuse/16/prod.repo
+
+sudo mv prod.repo /etc/zypp/repos.d/microsoft-prod.repo
+sudo chown root:root /etc/zypp/repos.d/microsoft-prod.repo
+
+sudo zypper refresh
+
+# .NET 10
+sudo zypper install -y dotnet-sdk-10.0
+
+
+
+
 sudo zypper install -y gtk3-devel gtk4-devel
 sudo zypper install -y sqlite3 sqlite3-devel
 sudo zypper install -y ldc
