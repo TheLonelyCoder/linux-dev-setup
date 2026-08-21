@@ -14,6 +14,8 @@ sudo zypper install -y gh
 
 # Languages and toolchains
 sudo zypper install -y gcc glibc-devel
+sudo zypper install -y libopenssl-devel
+sudo zypper install -y gcc14 gcc14-c++ clang
 sudo zypper install -y fpc 
 sudo zypper install -y php8 php8-dom
 sudo zypper install -y java-21-openjdk-devel
