@@ -17,7 +17,7 @@ sudo zypper install -y gcc glibc-devel
 sudo zypper install -y fpc 
 sudo zypper install -y php8 php8-dom
 sudo zypper install -y java-21-openjdk-devel
-sudo zypper install -y nasm fasm
+sudo zypper install -y nasm
 sudo zypper install -y dotnet-sdk-10.0 
 sudo zypper install -y gtk3-devel gtk4-devel
 sudo zypper install -y sqlite3 sqlite3-devel
