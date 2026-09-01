@@ -24,6 +24,10 @@ sudo pacman -S --needed --noconfirm gtk3 gtk4
 sudo pacman -S --needed --noconfirm sqlite
 sudo pacman -S --needed --noconfirm c3c
 sudo pacman -S --needed --noconfirm ldc
+sudo pacman -S --needed --noconfirm vala 
+sudo pacman -S --needed --noconfirm nim
+sudo pacman -S --needed --noconfirm crystal
+sudo pacman -S --needed --noconfirm julia
 
 # Development tools
 sudo pacman -S --needed --noconfirm lazarus
