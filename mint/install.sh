@@ -10,6 +10,7 @@ sudo apt update
 sudo apt install -y git wget curl gpg dos2unix meld 
 sudo apt install -y nano vim
 sudo apt install -y gh
+sudo apt install -y joe
 
 # Languages and toolchains
 sudo apt install -y gcc libc6-dev
