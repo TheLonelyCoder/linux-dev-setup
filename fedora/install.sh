@@ -23,6 +23,7 @@ sudo dnf install -y dotnet-sdk-10.0
 sudo dnf install -y gtk3-devel gtk4-devel 
 sudo dnf install -y sqlite sqlite-devel
 sudo dnf install -y ldc
+sudo dnf install -y nim
 
 # C3 compiler
 sudo dnf copr enable -y sisyphus1813/c3
