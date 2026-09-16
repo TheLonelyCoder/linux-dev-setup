@@ -21,7 +21,6 @@ sudo zypper install -y fpc
 sudo zypper install -y php8 php8-dom
 sudo zypper install -y java-21-openjdk-devel
 sudo zypper install -y nasm
-sudo zypper install -y nim
 # sudo zypper install -y dotnet-sdk-10.0 
 
 
@@ -46,6 +45,7 @@ sudo zypper install -y dotnet-sdk-10.0
 sudo zypper install -y gtk3-devel gtk4-devel
 sudo zypper install -y sqlite3 sqlite3-devel
 sudo zypper install -y ldc
+sudo zypper install -y nim
 
 # C3 compiler
 curl -fsSL https://raw.githubusercontent.com/c3lang/c3c/refs/heads/master/install/install.sh | bash
