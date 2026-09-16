@@ -55,3 +55,5 @@ codium --install-extension bmewburn.vscode-intelephense-client
 echo "------------------------------------------------------------"
 echo "--- Setup script finished, do your 'Kobayashi Maru' Test ---"
 echo "------------------------------------------------------------"
+echo "--- DO NOT FORGET: 'source ~/.bashrc' is your friend -------"
+echo "------------------------------------------------------------"
