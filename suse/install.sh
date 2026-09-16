@@ -21,6 +21,7 @@ sudo zypper install -y fpc
 sudo zypper install -y php8 php8-dom
 sudo zypper install -y java-21-openjdk-devel
 sudo zypper install -y nasm
+sudo zypper install -y nim
 # sudo zypper install -y dotnet-sdk-10.0 
 
 
