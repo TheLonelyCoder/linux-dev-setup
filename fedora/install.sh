@@ -11,6 +11,7 @@ sudo dnf install -y git wget curl gnupg2 dos2unix meld
 sudo dnf install -y nano vim
 sudo dnf install -y gh
 sudo dnf install -y joe
+sudo dnf install -y tree
 
 # Languages and toolchains
 sudo dnf install -y gcc gcc-c++ clang
