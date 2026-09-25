@@ -12,6 +12,7 @@ sudo zypper install -y git wget curl gpg2 dos2unix meld
 sudo zypper install -y nano vim
 sudo zypper install -y gh
 sudo zypper install -y joe
+sudo zypper install -y tree
 
 # Languages and toolchains
 sudo zypper install -y gcc glibc-devel
