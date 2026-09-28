@@ -7,7 +7,7 @@ set -e
 sudo apt update
 
 # Basic tools
-sudo apt install -y git wget curl gpg dos2unix meld 
+sudo apt install -y git wget curl gpg dos2unix meld make unzip
 sudo apt install -y nano vim
 sudo apt install -y gh
 sudo apt install -y joe
@@ -28,6 +28,7 @@ sudo apt install -y sqlite3 libsqlite3-dev
 sudo apt install -y ldc
 sudo apt install -y valac-bin
 sudo apt install -y nim
+sudo apt install -y qemu-system-x86 
 
 # C3 compiler
 curl -fsSL https://raw.githubusercontent.com/c3lang/c3c/refs/heads/master/install/install.sh | bash
